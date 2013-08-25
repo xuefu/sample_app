@@ -16,6 +16,8 @@ require 'spec_helper'
 
 describe "Static pages" do
 
+	subject { page }
+
 	let(:base_title) {"Ruby On Rails Tutorial Sample App"}
 
 	describe "Home pages" do

@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 gem 'rails', '3.2.14'
 gem 'bootstrap-sass', '2.0.0'
@@ -21,6 +21,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'therubyracer'
 
 group :test, :development do
   gem 'rspec-rails', '2.10.0'
